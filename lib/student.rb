@@ -48,7 +48,7 @@ class Student
     
     def update
       sql =<<-SQL
-        SELECT * FROM students
+        UPDATE students
         where id = ?
       SQL
     end 
