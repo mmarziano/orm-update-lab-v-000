@@ -34,9 +34,7 @@ class Student
   end 
   
   def save
-    if sql =<<-SQL
-        SELECT 
-      SQL
+    if self.id != nil
       self.update
     else 
       sql =<<-SQL
