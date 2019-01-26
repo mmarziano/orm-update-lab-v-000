@@ -69,7 +69,6 @@ class Student
       grade = student[2]
       
       new_student = Student.new(name,grade)
-      binding.pry
       new_student.create
     end 
 
