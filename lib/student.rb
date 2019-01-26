@@ -75,6 +75,7 @@ class Student
       sql =<<-SQL
         SELECT * FROM students
         WHERE name = ?
+        LIMIT 1
       SQL
       
       result = DB[:conn].execute(sql, name)[0]
