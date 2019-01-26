@@ -70,7 +70,7 @@ class Student
       
       new_student = Student.new(name,grade)
       binding.pry
-      new_student.save
+      new_student.create
     end 
 
 end
