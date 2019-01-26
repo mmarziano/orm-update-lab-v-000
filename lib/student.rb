@@ -63,9 +63,12 @@ class Student
       student
     end 
   
-    def self.new_from_db 
+    def self.new_from_db(student) 
+      id = student[0]
+      name = student[1]
+      grade = student[2]
       
-      
+      new_student = Student.new(name,grade)
     end 
 
 end
