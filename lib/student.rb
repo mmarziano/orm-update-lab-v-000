@@ -67,9 +67,8 @@ class Student
       id = student[0]
       name = student[1]
       grade = student[2]
-      
-      new_student = Student.new(name,grade)
-      new_student.create
+  
+      new_student.create(name, grade)
     end 
 
 end
