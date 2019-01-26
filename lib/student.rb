@@ -68,7 +68,7 @@ class Student
       name = student[1]
       grade = student[2]
   
-      new_student.create(name, grade)
+      self.create(name, grade)
     end 
 
 end
