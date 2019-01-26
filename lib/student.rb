@@ -58,8 +58,9 @@ class Student
     end 
     
     def create  
-      
-      
+      student = self.new 
+      self.save
+      student 
     end 
   
 
