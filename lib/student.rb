@@ -69,6 +69,7 @@ class Student
       grade = student[2]
       
       new_student = Student.new(name,grade)
+      new_student.save
     end 
 
 end
